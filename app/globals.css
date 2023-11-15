@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  justify-items: center;
+}
+.container {
+  padding: 70px 0 0 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(175, 175, 175);
+  border-radius: 10px 10px 0 0;
+}

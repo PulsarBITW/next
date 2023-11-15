@@ -1,0 +1,64 @@
+.navbar {
+  position: fixed;
+  background-color: rgb(22, 22, 22);
+  color: rgb(26, 198, 221);
+  width: 100%;
+  height: 60px;
+  padding: 0 50px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-size: 34px;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksList {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksList a {
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.2s;
+}
+
+.linksList a:hover {
+  font-size: 20px;
+}
+
+.activeLink {
+  color: rgb(177, 110, 240);
+  text-decoration: underline;
+}
+.noneActive {
+  color: rgb(238, 217, 189);
+  text-decoration: none;
+}
+
+.logolink {
+  width: 54px;
+  height: 42px;
+}
+.logolink:hover {
+  width: 60px;
+  height: 50px;
+}
+.logosvg {
+  width: 100%;
+  height: 100%;
+}

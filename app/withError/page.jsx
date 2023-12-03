@@ -5,9 +5,9 @@ import { ContextError } from "../contexts";
 export default function Page() {
   const { errorState, setErrorState } = useContext(ContextError);
 
-  if (!errorState) {
-    throw new Error("error for testing error.jsx");
-  }
+  // if (!errorState) {
+  //   throw new Error("error for testing error.jsx");
+  // }
 
   return (
     <>

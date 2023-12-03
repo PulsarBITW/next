@@ -35,10 +35,21 @@
   font-weight: 500;
   font-size: 18px;
   transition: all 0.2s;
+  display: flex;
 }
 
 .linksList a:hover {
   font-size: 20px;
+}
+.linksList a img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.linksList a img:hover {
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(0, 204, 255);
 }
 
 .activeLink {

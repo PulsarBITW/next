@@ -1,0 +1,28 @@
+.cont {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.group {
+  display: flex;
+  gap: 20px;
+}
+
+.cont p {
+  padding: 4px;
+}
+.important {
+  color: brown;
+}
+
+.link {
+  background-color: rgb(183, 129, 235);
+  padding: 3px 6px;
+  width: fit-content;
+  border: 1px solid purple;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+  margin-right: 4px;
+}

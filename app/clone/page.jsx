@@ -2,7 +2,7 @@ export const metadata = {
   title: "About",
 };
 
-const aboutPage = async () => {
+const aboutPage = () => {
   return (
     <>
       <h1>About us</h1>

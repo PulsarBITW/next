@@ -10,7 +10,10 @@ export default function DynamicsPage({ params }) {
   // console.log(params);
   return (
     <>
-      <h1>Динамическая страница c id = {params.id}</h1>
+      <h1>
+        {"Динамическая страница c id = "}
+        {params.id}
+      </h1>
     </>
   );
 }

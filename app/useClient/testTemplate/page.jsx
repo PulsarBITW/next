@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Page() {
   return (
     <>
-      <p>Для проверки:</p>
+      <p>{"Для проверки:"}</p>
       <Link
         style={{
           border: "1px solid red",
@@ -12,8 +12,7 @@ export default function Page() {
         }}
         href="/useClient/testTemplate/page1"
       >
-        {" "}
-        page1
+        {"page1"}
       </Link>
       <Link
         style={{
@@ -23,8 +22,7 @@ export default function Page() {
         }}
         href="/useClient/testTemplate/page2"
       >
-        {" "}
-        page2
+        {"page2 "}
       </Link>
     </>
   );

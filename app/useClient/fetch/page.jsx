@@ -11,7 +11,7 @@ export default async function Page() {
 
   return (
     <>
-      <h1>Кешированние запроса</h1>
+      <h1>{"Кешированние запроса"}</h1>
       <>
         {data.map((el) => (
           <p key={el.id * Math.random()}>{el.title}</p>

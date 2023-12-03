@@ -10,7 +10,7 @@ export default function Error({ error, reset }) {
 
   return (
     <>
-      <h1>error.jsx - Верхнего уровня</h1>
+      <h1>{"error.jsx - Верхнего уровня"}</h1>
       <CommonButton onClick={() => reset()}>reset</CommonButton>
     </>
   );

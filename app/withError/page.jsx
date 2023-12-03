@@ -11,11 +11,12 @@ export default function Page() {
 
   return (
     <>
-      <h1>Page with error</h1>
-      <p>Page for tesh error.jsx</p>
+      <h1>{"Page with error"}</h1>
+      <p>{"Page for tesh error.jsx"}</p>
       <p>
-        Если в state = true - тогда Эта страница отобразиться, если false -
-        отработает error.jsx
+        {
+          "Если в state = true - тогда Эта страница отобразиться, если false - отработает error.jsx"
+        }
       </p>
     </>
   );

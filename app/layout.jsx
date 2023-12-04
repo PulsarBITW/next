@@ -15,6 +15,16 @@ const status = !false; // for checking global-error.jsx
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          property="og:image"
+          content="https://i.postimg.cc/DwfwGF7t/3.png"
+        />
+        <meta property="og:image:alt" content="Jinx" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="436" />
+      </head>
       <body className={inter.className}>
         <Providers>
           <div className="wrapper">

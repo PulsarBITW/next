@@ -10,7 +10,7 @@ export const metadata = {
   description: "проверяю работа metadata и opengraph",
 };
 
-const status = !false; // for checking global-error.jsxs
+const status = !false; // for checking global-error.jsx
 
 export default function RootLayout({ children }) {
   return (
